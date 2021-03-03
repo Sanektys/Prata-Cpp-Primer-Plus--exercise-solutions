@@ -2,20 +2,20 @@
 
 
 int main() {
-    setlocale(LC_ALL, "rus");
+    setlocale(LC_ALL, "");
 
     std::wcout << L"Введите два целых числа(от меньшего к большему)\n"
                   L"и программа вычислит сумму всех чисел, "
                   L"лежащих в данном диапазоне.\n";
     std::wcout << L"Нижнее число: ";
-    long lowNumber{};
+    int lowNumber{};
     std::cin >> lowNumber;
     std::wcout << L"Верхнее число: ";
-    long highNumber{};
+    int highNumber{};
     std::cin >> highNumber;
 
     long long result{};
-    for (long i = lowNumber; i <= highNumber; ++i)
+    for (int i = lowNumber; i <= highNumber; ++i)
         result += i;
     std::wcout << L"Сумма всех чисел в диапазоне: " << result << std::endl;
 

@@ -2,7 +2,7 @@
 
 
 int main() {
-    setlocale(LC_ALL, "RUS");
+    setlocale(LC_ALL, "");
 
     std::wcout << L"Вводите слова (для завершения введите слово done):\n";
     std::string word{};

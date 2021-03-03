@@ -2,7 +2,7 @@
 
 
 int main() {
-     setlocale(LC_ALL, "rus");
+     setlocale(LC_ALL, "");
 
     std::wcout << L"Программа суммирует поочерёдно вводимые числа\n";
     std::wcout << L"Начните вводить по одному числу, "

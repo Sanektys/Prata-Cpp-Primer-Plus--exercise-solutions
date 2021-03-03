@@ -3,8 +3,8 @@
 
 struct pizza {
     char companyName[40];
-    int diameter;
     float weight;
+    int diameter;
 };
 
 int main() {
